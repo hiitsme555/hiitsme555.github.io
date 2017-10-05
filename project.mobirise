@@ -14,12 +14,13 @@
         "titleFont": "Montserrat",
         "textFont": "Raleway",
         "isSquareButtons": false
-      }
+      },
+      "additionalSetColors": []
     },
     "versionFirst": "4.3.2",
-    "uniqCompNum": 1,
+    "uniqCompNum": 17,
     "versionPublish": "4.3.2",
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/el-128x128.png",
     "noImageResize": "",
     "google-analytics": ""
   },
@@ -59,7 +60,7 @@
           "title1": "LOGISTICS AND SUPPLY CHAIN MANAGEMEN",
           "text": "This program is globally recognized. According to the survey by  www.best-masters.com.&nbsp;XLRI was the 1st to start this program in ASIA in 2004<br>",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Submit</a>",
-          "buttons1": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" href=\"https://educationlanes.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">JOIN NOW</a>",
+          "buttons1": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" href=\"http://educationlanes.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">JOIN NOW</a>",
           "form": {
             "title": "MESSAGE",
             "action": "hiitsme555@gmail.com",
@@ -95,6 +96,73 @@
           ],
           "_name": "header2",
           "_anchor": "header2-0"
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "Page 1",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showMedia": true,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.8"
+          },
+          "headerAlign": "left",
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "images/iphone.png"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=bn6Y-NPO9rU",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Watch Demo Session",
+          "text": "Lorem ipsum dolor sit amet elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Join</a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-g",
+          "_styles": {
+            "P": {
+              "text-align": "left",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "color": "#ffc107"
+            },
+            "H3": {
+              "color": "#ff5722",
+              "font-size": "36px"
+            }
+          }
         }
       ]
     }
