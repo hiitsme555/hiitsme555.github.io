@@ -54,18 +54,18 @@
             },
             "overlay": true,
             "overlayColor": "#000",
-            "overlayOpacity": 0.2
+            "overlayOpacity": "0"
           },
           "title": "APPLY NOW!",
           "title1": "LOGISTICS AND SUPPLY CHAIN MANAGEMEN",
           "text": "This program is globally recognized. According to the survey by  www.best-masters.com.&nbsp;XLRI was the 1st to start this program in ASIA in 2004<br>",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Submit</a>",
-          "buttons1": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" href=\"http://educationlanes.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">JOIN NOW</a>",
+          "buttons1": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" href=\"http://educationlanes.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">JOIN NOW</a>  <a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" href=\"http://page1.html\" data-toolbar=\"-mbrBtnMove\">Watch Demo session</a>",
           "form": {
             "title": "MESSAGE",
             "action": "hiitsme555@gmail.com",
             "alerts": {
-              "success": "Thanks for filling out form!"
+              "success": "Thanks for filling out form! We Will contact you Soon."
             },
             "fields": {
               "name": {
