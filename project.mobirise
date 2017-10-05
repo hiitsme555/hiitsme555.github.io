@@ -15,10 +15,12 @@
         "textFont": "Raleway",
         "isSquareButtons": false
       },
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#7ac673"
+      ]
     },
     "versionFirst": "4.3.2",
-    "uniqCompNum": 17,
+    "uniqCompNum": 18,
     "versionPublish": "4.3.2",
     "favicon": "@PROJECT_PATH@/assets/images/el-128x128.png",
     "noImageResize": "",
@@ -60,7 +62,7 @@
           "title1": "LOGISTICS AND SUPPLY CHAIN MANAGEMEN",
           "text": "This program is globally recognized. According to the survey by  www.best-masters.com.&nbsp;XLRI was the 1st to start this program in ASIA in 2004<br>",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Submit</a>",
-          "buttons1": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" href=\"http://educationlanes.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">JOIN NOW</a>  <a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" href=\"http://page1.html\" data-toolbar=\"-mbrBtnMove\">Watch Demo session</a>",
+          "buttons1": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" href=\"http://educationlanes.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">JOIN NOW</a>  <a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">Watch Demo session</a>",
           "form": {
             "title": "MESSAGE",
             "action": "hiitsme555@gmail.com",
@@ -102,17 +104,18 @@
     "page1.html": {
       "settings": {
         "title": "Page 1",
-        "order": 1
+        "order": 2,
+        "meta_descr": "demo session linkl"
       },
       "components": [
         {
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showButtons": false,
+            "showButtons": true,
             "showMedia": true,
-            "paddingTop": "2",
-            "paddingBottom": "2",
+            "paddingTop": "3",
+            "paddingBottom": "3",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
             "parallax": false,
@@ -144,7 +147,7 @@
           },
           "title": "Watch Demo Session",
           "text": "Lorem ipsum dolor sit amet elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Join</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"index.html\">back</a>",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
